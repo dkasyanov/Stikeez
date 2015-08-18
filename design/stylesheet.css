@@ -1,0 +1,94 @@
+
+.container{
+	width: 960px !important;
+}
+#top{
+	background-color: #585858;
+	height: 200px;
+}
+.text1, .text2{
+	height: 400px;
+}
+.menu{
+	
+	height: 50px;
+}
+a{
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.text1{
+	background-color: #585858;
+}
+.text2{
+	background-color: #585858;
+}
+.footer{
+	background-color: #9A9A9A;
+	height: 100px;
+}
+img{
+	border-radius: 30px;
+}
+.line{
+	display: inline-block;
+	line-height: 50px;
+}
+.right{
+	position: absolute;
+	right: 10px;
+	
+}
+
+.form{
+	position: relative;
+	float: right;
+	width: 440px;
+	line-height: 50px;
+}
+
+.modal-body .form-group input{
+	padding: 15px 15px 15px 30px;
+}
+#email{
+	background: #f1f1f1 url(icons/envelopes5.png) no-repeat;
+	background-position: 5px 5px !important;
+	background-size: 20px auto;
+}
+#name{
+	background: #f1f1f1 url(icons/registr.png) no-repeat;
+	background-size: 15 auto;
+	background-position: 5px -8px;
+
+}
+#password{
+	background: #f1f1f1 url(icons/registr.png) no-repeat;
+	background-size: 15 auto;
+	background-position: 5px -58px;
+}
+button{
+	padding: 2px !important;
+}
+.toggle{
+	display: none;
+}
+.icons{
+	position: absolute;
+	left: 50%;
+	
+}
+.icons a{
+	text-decoration: none;
+	width: 50px;
+	height: 50px;
+	transition: transform 0.5s;
+}
+.icons a:hover{
+	transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+}
