@@ -7,10 +7,10 @@
 	height: 200px;
 }
 .text1, .text2{
-	height: 400px;
+	min-height: 600px;
 }
+
 .menu{
-	
 	height: 50px;
 }
 a{
@@ -21,12 +21,12 @@ a:hover{
 	color: black;
 	font-weight: bold;
 }
-.text1{
+/*.text1{
 	background-color: #585858;
 }
 .text2{
 	background-color: #585858;
-}
+}*/
 .footer{
 	background-color: #9A9A9A;
 	height: 100px;
@@ -34,6 +34,7 @@ a:hover{
 img{
 	border-radius: 30px;
 }
+
 .line{
 	display: inline-block;
 	line-height: 50px;
@@ -91,4 +92,29 @@ button{
 	transform: rotate(360deg);
 	-ms-transform: rotate(360deg);
 	-webkit-transform: rotate(360deg);
+}
+
+#profile{
+	border-radius: 0px !important;
+}
+
+.information p{
+	margin: 0px !important;
+}
+
+.published{
+	float: right;
+}
+textarea{
+	resize: none;
+}
+textarea:focus{
+	height: 50px;
+}
+.page{
+	position: absolute;
+	width: 250px;
+	bottom: 0px;
+	left: 50%;
+	margin-left: -200px ;
 }
