@@ -118,3 +118,16 @@ textarea:focus{
 	left: 50%;
 	margin-left: -200px ;
 }
+.save{
+	margin: 0 auto;
+}
+.tab-content{
+	border-width:0px 1px;
+	border-color: #DEDEDE;
+	border-style: solid;
+	margin-top: 0px !important;
+	padding: 5px;
+}
+.tab{
+	width: 50%;
+}
