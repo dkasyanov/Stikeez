@@ -31,7 +31,7 @@ a:hover{
 	background-color: #9A9A9A;
 	height: 100px;
 }
-img{
+.social{
 	border-radius: 30px;
 }
 
@@ -42,7 +42,6 @@ img{
 .right{
 	position: absolute;
 	right: 10px;
-	
 }
 
 .form{
@@ -130,4 +129,66 @@ textarea:focus{
 }
 .tab{
 	width: 50%;
+}
+.filter{
+	background-color: #AFFFD5;
+}
+.cross{
+	cursor: pointer;
+}
+.profileimg{
+	float: left;
+}
+
+
+.slider-color{
+	margin-left: 15px;
+	background: #8CF9C1;
+}
+
+.cursor{
+	cursor: pointer;
+}
+
+.arrow-toggle{
+	font-size: 2em;
+	color: #A50404;
+}
+.glyphicon-email{
+	font-size: 2.3em;
+}
+
+table{
+	width: 100%;
+}
+.item-box{
+	margin-left: 20px;
+}
+
+.faq{
+	background: #D6D6D6;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.faq > h2{
+	margin-top: 0 !important;
+}
+
+.dialog{
+	padding: 15px;
+	background-color: #D5FFE1;
+	border: 1px solid #9DB6A3;
+}
+.message{
+	padding: 15px;
+	background-color: #D5FFE1;
+	border: 1px solid #9DB6A3;
+}
+.dialog:hover{
+	background-color: #9AF8A6;
+}
+
+.dialog-row{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
 }

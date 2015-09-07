@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+    <title>TESTING HTML5</title>
+		<link rel="stylesheet" href="bootstrap-3.3.4-dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="stylesheet.css">
+
+	    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	    <script src="bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+	    <script src="javascript.js"></script>
+</head>
+<body>
+
+
+<div class="container">
+	<div class="row">
+		<div id="top" class="col-lg-12">Here top img</div>
+	</div>
+	<div class="row">
+		<nav class="navbar navbar-default">
+			<div class="col-lg-12 menu">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Main</a></li>
+					<li><a href="faq.html">FAQ</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="profile.html">Мой профиль</a></li>
+					<li><a href="collection.html">Моя коллекция</a></li>
+					<li><a href="find.html">Найти подходящие</a></li>
+					<li><a href="messages.html">Сообщения <span class="badge">4</span></a></li>
+				</ul>		
+				<ul class="line right nav navbar-nav">
+					<li><a href="#" class="sign">Sign Out</a></li>
+				</ul>
+			</div>
+		</nav>
+
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-4 filter">
+		<h3>Искать в</h3>
+		<span>city<span aria-hidden="true" class="cross">&times;</span></span>
+		<hr>
+			<div class="from-group">
+				<label for="">Choice city</label>
+				<select type="text" class="form-control">
+					<option value="country">Country</option>
+				</select>
+				<select name="" id="" class="form-control">
+					<option value="region">Region</option>
+				</select>
+				<select name="" id="" class="form-control">
+					<option value="city">city</option>
+				</select>
+				<div class="text-center">
+				<button class="btn btn-default">Add</button>
+				</div>
+
+			</div>
+		</div>
+		<div class="col-lg-8">
+
+		<!-- variant for results by users -->
+
+			<div class="row items">
+				<div class="col-lg-2">
+					<img src="http://fakeimg.pl/70x70/00CED1/FFF/?text=img">
+				</div>
+				<div class="col-lg-7">
+					<span>name</span>
+					<span>City</span>
+				</div>
+				<div class="col-lg-1">
+					<span class="glyphicon glyphicon-envelope glyphicon-email" aria-hidden="true"></span>
+				</div>
+			</div>
+
+			<div class="row toggle">
+				<div class="col-lg-5">
+					<img src="http://fakeimg.pl/50x50/00CED1/FFF/?text=img1">
+				</div>
+				<div class="col-lg-2">
+					<img src="http://fakeimg.pl/20x20/00CED1/FFF/?text=img2">
+				</div>
+				<div class="col-lg-5">
+					<img src="http://fakeimg.pl/50x50/00CED1/FFF/?text=img3">
+				</div>
+			</div>
+
+			<div class="row  cursor">
+				<div class="col-lg-12 text-center arrow-down slider-color">
+					
+							<span class="glyphicon glyphicon-circle-arrow-down cursor arrow-toggle" aria-hidden="true"></span>
+							<span class="glyphicon glyphicon-upload arrow-toggle" style="display: none" aria-hidden="true"></span>
+				</div>
+			</div>
+			
+
+		<!-- variant results by item -->
+
+		<div class="row item-box">
+			<table>
+				<tr>
+					<td rowspan="2"><img src="http://fakeimg.pl/50x50/00CED1/FFF/?text=item"></td>
+					<td>item.name</td>
+					<td>price</td>
+				</tr>
+				<tr>
+					<td><span>user.name</span>
+						<span>user.city</span>
+					</td>
+					<td>
+						<span class="glyphicon glyphicon-envelope glyphicon-email" aria-hidden="true"></span>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12 footer">footer</div>
+	</div>
+</div>
+	
+</body>
+</html>
